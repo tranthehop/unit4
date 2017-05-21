@@ -10,4 +10,5 @@ function setInfor() {
 	x[0].innerHTML = dog.name;
 	x[1].setAttribute('src',dog.picture);
 	document.getElementById("hello").onclick = dog.action;
+	// x[2].onclick = dog.action; cách khác easy hon 
 }
